@@ -1,0 +1,13 @@
+# Whether or not the plugin is enabled.
+is_enabled: true
+# Whether or not debug messages should be shown.
+debug: false
+# Whether the built-in role assigner should be used over the base game one.
+use_default_role_assigner: true
+# Whether the built-in respawn manager should be used over the base game one.
+use_default_respawn_manager: true
+# Whether the automatic modules loader should be used.
+use_automatic_modules_loader: true
+# The modules to be loaded.
+modules:
+- 'SerpentHand'

@@ -1,0 +1,27 @@
+# Indicates whether this plugin is enabled.
+is_enabled: true
+debug: false
+# The hint that is shown when someone pickups a custom item.
+picked_up_hint:
+# The broadcast content
+  content: |-
+    You have picked up a {0}
+    {1}
+  # The broadcast duration
+  duration: 10
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown
+  show: true
+# The hint that is shown when someone selects a custom item.
+selected_hint:
+# The broadcast content
+  content: |-
+    You have selected a {0}
+    {1}
+  # The broadcast duration
+  duration: 5
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown
+  show: true

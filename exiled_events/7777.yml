@@ -1,0 +1,32 @@
+is_enabled: true
+debug: false
+# Indicates whether events are patched only if they have delegates subscribed to them
+use_dynamic_patching: true
+# Indicates whether SCP-173 can be blocked by the tutorial
+can_tutorial_block_scp173: true
+# Indicates whether SCP-096 can be triggered by the tutorial
+can_tutorial_trigger_scp096: true
+# Indicates whether SCP-049 can sense tutorial players
+can_scp049_sense_tutorial: true
+# Indicates whether tutorial is affected by SCP-079 scan.
+tutorial_not_affected_by_scp079_scan: false
+# Indicates whether flashbangs flash original thrower.
+can_flashbangs_affect_thrower: false
+# Indicates whether the name tracking (invisible EXILED version string added to the end of the server name) is enabled or not
+is_name_tracking_enabled: true
+# Indicates whether the inventory should be dropped before being set as spectator, through commands or plugins
+should_drop_inventory: true
+# Indicates whether the blood can be spawned
+can_spawn_blood: true
+# Indicates whether thrown keycards can affect doors that don't require any permissions
+can_keycard_throw_affect_doors: false
+# Indicates whether the SCP079 will recontained if there are no SCPs left.
+recontain_scp079_if_no_scps_left: true
+# Indicates whether configs have to be reloaded every round restart
+should_reload_configs_at_round_restart: false
+# Indicates whether translations has to be reloaded every round restart
+should_reload_translations_at_round_restart: false
+# Indicates whether bans should be logged
+should_log_bans: true
+# Whether to log RA commands.
+log_ra_commands: true

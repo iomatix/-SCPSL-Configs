@@ -1,0 +1,8 @@
+# Indicates whether the debug should be shown
+should_debug_be_shown: false
+# The permissions folder path
+folder: 'C:\Users\PC\AppData\Roaming\EXILED\Configs'
+# The permissions full path
+full_path: 'C:\Users\PC\AppData\Roaming\EXILED\Configs\permissions.yml'
+is_enabled: true
+debug: false

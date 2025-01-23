@@ -1,0 +1,54 @@
+# Plugin enabled?
+is_enabled: true
+# Chance that the Alpha Warhead will be replaced with Omega Warhead
+replace_alpha_chance: 25
+# Time to the Omega Warhead detonation in seconds.
+time_to_detonation: 350
+# Time to the open and lock checkpoint doors after Omega activation.
+open_and_lock_checkpoint_doors_delay: 225
+# Time to the helicopter after Omega activation.
+helicopter_broadcast_delay: 250
+# Indicates that the player can stop OmegaWarhead after activation.
+is_stop_allowed: false
+# Red channel of the lights color in the rooms during OmegaWarhead event
+lights_color_r: 0.05
+# Green channel of the lights color in the rooms during OmegaWarhead event
+lights_color_g: 0.85
+# Blue channel of the lights color in the rooms during OmegaWarhead event
+lights_color_b: 0.35
+# Broadcast that will appear when the player escapes in the helicopter.
+helicopter_escape:
+  # The broadcast content
+  content: 'You escaped in the helicopter.'
+  # The broadcast duration
+  duration: 10
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown or not
+  show: true
+# Broadcast that will appear when the Omega Warhead is activated.
+activated_message:
+  # The broadcast content
+  content: |-
+    <b><color=red>OMEGA WARHEAD ACTIVATED</color></b>
+    PLEASE EVACUATE IMMEDIATELY
+  # The broadcast duration
+  duration: 10
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown or not
+  show: true
+# Cassie message when Omega Warhead is stopped
+stopping_omega_cassie: 'pitch_0.9 Omega Warhead detonation has been stopped'
+# Cassie message of Omega Warhead activation
+starting_omega_cassie: 'pitch_0.2 .g3 .g3 .g3 pitch_0.9 attention . attention . activating omega warhead . Please evacuate in the . breach shelter or in the helicopter . please evacuate immediately .'
+# Cassie message of Omega Warhead detonation
+detonating_omega_cassie: 'pitch_0.65 Detonating pitch_0.5 Warhead'
+# Cassie message regarding the incoming Helicopter
+heli_incoming_cassie: 'pitch_0.25 .g3 .g3 .g3 pitch_0.9 attention . attention . the helicopter is in comeing . Please evacuate . Attention . the helicopter is in comeing . Please evacuate immediately'
+# Cassie message regarding the checkpoints unlock
+checkpoint_unlock_cassie: 'pitch_0.25 .g3 .g3 .g3 pitch_0.9 attention . attention . the checkpoint doors are open . Attention . the checkpoint doors are open . Please evacuate immediately'
+# Permissions of the plugin.
+permissions: 'omegawarhead'
+# Debug enabled?
+debug: false

@@ -1,0 +1,10 @@
+is_enabled: true
+debug: false
+# Info side - Badge, CustomPlayerInfo, FirstAvailable
+mode: FirstAvailable
+# Overrides badge if exists
+badge_override: false
+# Overrides Custom Player Info if exists
+custom_player_info_override: false
+# Whether the plugin should ignore a player's DNT flag. By default (false), players with DNT flag will not be checked for credit tags.
+ignore_dnt_flag: false

@@ -1,0 +1,10 @@
+# Enable/disable BetterSinkholes
+is_enabled: true
+# Distance from the center of a sinkhole where player gets warped
+teleport_distance: 0.25
+# Distance from the center of a sinkhole where player starts getting slowed
+slow_distance: 0.99000001
+# Sinkhole slowness intensity. Higher value slows down movement based on the distance from the center of the sinkhole.
+slow_intensity: 100
+# Debug BetterSinkholes
+debug: true
