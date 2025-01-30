@@ -21,15 +21,15 @@ skip_checkpoints_gate: false
 # The InitialDelay before the first Door Restart can happen
 initial_delay: 20
 # The Minimum Duration of the Lockdown
-duration_min: 20
+duration_min: 24
 # The Maximum Duration of the Lockdown
-duration_max: 60
+duration_max: 86
 # The The Minimum Delay before the next the Lockdown
 delay_min: 160
 # The The Maximum Delay before the next the Lockdown
 delay_max: 640
 # The chance that a Round even has DoorSystemRestarts
-spawnchance: 165
+spawnchance: 65
 # Enable lighting flicker
 flicker: true
 # Flickering frequency. Higher the value faster the flickering.
