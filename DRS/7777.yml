@@ -21,17 +21,15 @@ skip_checkpoints_gate: false
 # The InitialDelay before the first Door Restart can happen
 initial_delay: 20
 # The Minimum Duration of the Lockdown
-duration_min: 25
+duration_min: 20
 # The Maximum Duration of the Lockdown
-duration_max: 85
+duration_max: 60
 # The The Minimum Delay before the next the Lockdown
 delay_min: 160
 # The The Maximum Delay before the next the Lockdown
 delay_max: 640
 # The chance that a Round even has DoorSystemRestarts
-spawnchance: 65
-# Enable 3 . 2 . 1 announcement
-countdown: true
+spawnchance: 165
 # Enable lighting flicker
 flicker: true
 # Flickering frequency. Higher the value faster the flickering.
@@ -48,12 +46,14 @@ glitch_chance: 5
 jam_chance: 5
 # Message said by Cassie if no lockdown occurs
 cassie_message_wrong: '.g5 . Avoided the malfunction of the control system . .g3'
-# Message said by Cassie when a lockdown starts - 3 . 2 . 1 announcement
-cassie_message_start: 'pitch_0.25 .g4 . pitch_0.45 .g3 pitch_0.95 . ATTENTION . AN IMPORTANT . MESSAGE . pitch_0.98 the facility control system pitch_0.25 .g1 pitch_0.93 critical failure'
-# The time between the sentence and the 3 . 2 . 1 announcement
+# Enable CassieMessageCountdown announcement
+is_countdown_enabled: true
+# Message said by Cassie just before a lockdown starts - Countdown - 3 . 2 . 1 announcement
+cassie_message_countdown: 'pitch_0.2 .g4 . .g4 pitch_1 door control system pitch_0.25 .g1 pitch_0.9 malfunction pitch_1 . initializing repair'
+# The delay between the CassieMessageCountdown and the CassieMessageStart if IsCountdownEnabled is enabled.
 time_between_sentence_and_start: 15
 # Message said by Cassie just after the lockdown.
-cassie_post_message: 'pitch_0.98 . initializing pitch_0.95 diagnostic protocols'
+cassie_message_start: 'pitch_0.25 .g4 . pitch_0.45 .g3 pitch_0.95 . ATTENTION . AN IMPORTANT . MESSAGE . pitch_0.98 the facility control system pitch_0.25 .g1 pitch_0.93 critical failure'
 # Message said by Cassie after CassiePostMessage if lockdown gonna occur at whole site.
 cassie_message_facility: ''
 # Message said by Cassie after CassiePostMessage if outage gonna occur at the Entrance Zone.
