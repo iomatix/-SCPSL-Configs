@@ -64,7 +64,7 @@ respawn_tickets_mtf_scp_hurt_interval: 20
 # NOTE: Stamina is currently only utilized on humans.
 # 0 to disable, but this *will* cause weirdness with status effects
 # and other mechanics, so we recommend keeping it on!
-stamina_balance_use: 0.035
+stamina_balance_use: 0.115
 
 # The time (in seconds) that newly-spawned players can sprint
 # without consuming stamina. Used to reduce visual artifacts.
@@ -75,12 +75,12 @@ stamina_balance_immunity: 3
 #INVALID - the player stops sprinting.
 # Lower values are more liekly to be exploited by players
 # Higher higher can be annoying to players.
-stamina_balance_regen_cd: 3.35
+stamina_balance_regen_cd: 7.25
 
 # How fast the stamina regenerates.
 # This is a multiplier for the default setting,
 # which is based on a curve - not a specific value.
-stamina_balance_regen_speed: 0.37
+stamina_balance_regen_speed: 0.47
 
 #Random-stuff settings (-1: random)
 server_forced_class: -1
